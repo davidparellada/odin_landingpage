@@ -79,3 +79,102 @@ header ul a {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+/* Info */
+
+.info {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#info-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+.info .secondary-text {
+  color: #1f2937be;
+}
+
+#gallery {
+  display: flex;
+  gap: 20px;
+}
+
+#gallery img {
+  object-fit: cover;
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.gallery-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+/* Quote */
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+/* Call to action */
+.call-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#call-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #3882f6;
+  padding: 30px 70px;
+  border-radius: 10px;
+}
+
+#call-heading {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+#call-small {
+  font-size: 16px;
+  color: #f9faf8;
+}
+
+#call-button {
+  font-size: 18px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 3px 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+footer small {
+  font-size: 14px;
+  color: white;
+}
